@@ -2,12 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>MyApp</title>
+  <title>Admin</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d583c1e070.js" crossorigin="anonymous"></script>
+  
 </head>
 <body>
+   <!-- header  -->
+ <header class="section-header">
+  <div class="header-logo">
+    <img src="/assets/descargar.png" >
+  </div>
+  <div class="header-text">
+    <h3 id="txt-admin">Administrador</h3>
+  </div>
+</header>
+<!-- end header  -->
+<hr class="tag-ln">
+<!-- submain   -->
+<div class="submain">
+  <div class="submain-1">
+    <p class="txt-submain">Home: User Account</p>
+    <p class="txt-submain">customer: Cyrus Wireless-Cyrus Wireless</p>
+  </div>
+  <div class="submain-2">
+    <p class="txt-date">20-10-07</p>
+    <div class="breadcrum">
+      <h5>DevTeam </h5>
+      <hr class="vertical-line">
+      <h5> DevTeam</h5>
+      <hr class="vertical-line">
+      <h5>Logout</h5>
+      <hr class="vertical-line">
+      <h5>users online: </h5>
+    </div>
+  </div>
+</div>
+<!-- end submain  -->
+<!-- --- bar main  -->
+<nav>
+  <ul>
+    <li>
+      <i class="fas fa-user"></i>
+      <a href="#">users Accounts</a>
+      <ul>
+        <li>
+          <i class="fas fa-car"></i>
+          <a href="#">Units by user</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
   <app-root></app-root>
 </body>
 </html>
